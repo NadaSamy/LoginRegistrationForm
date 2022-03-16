@@ -1,0 +1,31 @@
+Body {
+    background-image: url("background.png");
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width:20em;
+    height:15em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    text-align: center; 
+       
+}
+
+#welcomeDIV {
+    height:10em;
+}
+
+ a:hover{
+  
+    background-color: lightcoral;
+}
+
